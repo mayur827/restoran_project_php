@@ -1,0 +1,878 @@
+
+
+/* =========================================================
+   WELCOME CARD
+========================================================= */
+
+
+
+.welcome-card {
+
+    overflow: hidden;
+
+    border: none;
+
+    background: linear-gradient(
+        135deg,
+        #ffffff 0%,
+        #f8f7ff 100%
+    );
+
+    box-shadow: 0 4px 18px rgba(67, 89, 113, 0.08);
+
+}
+
+
+.welcome-card .card-body {
+
+    padding: 32px;
+
+}
+
+
+.welcome-card .card-title {
+
+    font-size: 22px;
+
+    font-weight: 600;
+
+}
+
+
+.welcome-image-box {
+
+    padding: 20px;
+
+}
+
+
+.welcome-image {
+
+    max-width: 230px;
+
+    height: auto;
+
+    transition: transform 0.4s ease;
+
+}
+
+
+.welcome-card:hover .welcome-image {
+
+    transform: translateY(-6px);
+
+}
+
+
+
+/* =========================================================
+   STAT CARDS
+========================================================= */
+
+.restaurant-stat-card {
+
+    border: none;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+
+}
+
+
+.restaurant-stat-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 22px rgba(67, 89, 113, 0.12);
+
+}
+
+
+.restaurant-icon {
+
+    width: 46px;
+
+    height: 46px;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 23px;
+
+}
+
+
+.food-icon {
+
+    color: #696cff;
+
+    background: rgba(105, 108, 255, 0.12);
+
+}
+
+
+.chef-icon {
+
+    color: #71dd37;
+
+    background: rgba(113, 221, 55, 0.12);
+
+}
+
+
+.service-icon {
+
+    color: #03c3ec;
+
+    background: rgba(3, 195, 236, 0.12);
+
+}
+
+
+.menu-icon-box {
+
+    color: #ffab00;
+
+    background: rgba(255, 171, 0, 0.12);
+
+}
+
+
+.stat-label {
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    color: #a1acb8;
+
+    letter-spacing: 0.6px;
+
+}
+
+
+.stat-number {
+
+    color: #566a7f;
+
+    font-size: 29px;
+
+    margin-top: 20px;
+
+    margin-bottom: 2px;
+
+}
+
+
+.stat-title {
+
+    color: #566a7f;
+
+    margin-bottom: 5px;
+
+}
+
+
+.stat-text {
+
+    color: #a1acb8;
+
+    font-size: 13px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.stat-link {
+
+    color: #696cff;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    text-decoration: none;
+
+}
+
+
+.stat-link i {
+
+    transition: margin-left 0.2s ease;
+
+}
+
+
+.stat-link:hover i {
+
+    margin-left: 5px;
+
+}
+
+
+
+/* =========================================================
+   OVERVIEW
+========================================================= */
+
+.overview-badge {
+
+    padding: 5px 10px;
+
+    border-radius: 15px;
+
+    background: rgba(113, 221, 55, 0.12);
+
+    color: #71dd37;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+}
+
+
+.overview-item {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 14px 0;
+
+    border-bottom: 1px solid #eceef1;
+
+}
+
+
+.overview-item:last-child {
+
+    border-bottom: none;
+
+}
+
+
+.overview-left {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+}
+
+
+.overview-icon {
+
+    width: 42px;
+
+    height: 42px;
+
+    border-radius: 9px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 20px;
+
+}
+
+
+.overview-left h6 {
+
+    color: #566a7f;
+
+}
+
+
+.overview-right {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+}
+
+
+.overview-right strong {
+
+    font-size: 13px;
+
+    color: #566a7f;
+
+}
+
+
+.overview-right a {
+
+    color: #696cff;
+
+    text-decoration: none;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+}
+
+
+
+/* =========================================================
+   QUICK ACCESS
+========================================================= */
+
+.quick-link {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 10px;
+
+    margin-bottom: 7px;
+
+    border-radius: 9px;
+
+    text-decoration: none;
+
+    color: #566a7f;
+
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease;
+
+}
+
+
+.quick-link:hover {
+
+    background: #f7f7f9;
+
+    transform: translateX(4px);
+
+}
+
+
+.quick-link > span:nth-child(2) {
+
+    flex: 1;
+
+}
+
+
+.quick-link strong {
+
+    display: block;
+
+    font-size: 14px;
+
+    margin-bottom: 2px;
+
+}
+
+
+.quick-link small {
+
+    display: block;
+
+    font-size: 11px;
+
+    color: #a1acb8;
+
+}
+
+
+.quick-icon {
+
+    width: 40px;
+
+    height: 40px;
+
+    min-width: 40px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 9px;
+
+    font-size: 19px;
+
+}
+
+
+.quick-link > i {
+
+    font-size: 20px;
+
+    color: #a1acb8;
+
+}
+
+
+
+/* =========================================================
+   TABLE
+========================================================= */
+
+.table thead th {
+
+    font-size: 12px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.3px;
+
+    color: #697a8d;
+
+}
+
+
+.table tbody td {
+
+    color: #566a7f;
+
+    font-size: 13px;
+
+}
+
+
+.table .avatar {
+
+    width: 40px;
+
+    height: 40px;
+
+}
+
+
+.table .avatar img {
+
+    width: 40px;
+
+    height: 40px;
+
+    object-fit: cover;
+
+}
+
+
+
+/* =========================================================
+   RESERVATION
+========================================================= */
+
+.reservation-number {
+
+    font-size: 46px;
+
+    font-weight: 600;
+
+}
+
+
+.reservation-title {
+
+    color: #566a7f;
+
+    font-size: 17px;
+
+}
+
+
+.reservation-info {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 11px 0;
+
+    border-bottom: 1px solid #eceef1;
+
+}
+
+
+.reservation-info:last-child {
+
+    border-bottom: none;
+
+}
+
+
+.reservation-info div {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: #697a8d;
+
+    font-size: 13px;
+
+}
+
+
+.reservation-info i {
+
+    color: #696cff;
+
+    font-size: 19px;
+
+}
+
+
+
+/* =========================================================
+   CHEFS
+========================================================= */
+
+.chef-item {
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 13px 0;
+
+    border-bottom: 1px solid #eceef1;
+
+}
+
+
+.chef-item:last-child {
+
+    border-bottom: none;
+
+}
+
+
+.chef-item .avatar {
+
+    width: 45px;
+
+    height: 45px;
+
+}
+
+
+.chef-item img {
+
+    width: 45px;
+
+    height: 45px;
+
+    object-fit: cover;
+
+}
+
+
+.chef-details {
+
+    flex: 1;
+
+}
+
+
+.chef-details h6 {
+
+    color: #566a7f;
+
+}
+
+
+
+/* =========================================================
+   TESTIMONIALS
+========================================================= */
+
+.testimonial-item {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+.testimonial-item .avatar {
+
+    width: 45px;
+
+    height: 45px;
+
+}
+
+
+.testimonial-item img {
+
+    width: 45px;
+
+    height: 45px;
+
+    object-fit: cover;
+
+}
+
+
+.testimonial-item h6 {
+
+    color: #566a7f;
+
+}
+
+
+.stars {
+
+    color: #ffab00;
+
+    font-size: 12px;
+
+    margin-top: 4px;
+
+    letter-spacing: 1px;
+
+}
+
+
+.testimonial-text {
+
+    color: #697a8d;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+
+    margin-top: 12px;
+
+    margin-bottom: 0;
+
+}
+
+
+
+/* =========================================================
+   WEBSITE SECTIONS
+========================================================= */
+
+.website-sections-card {
+
+    border: none;
+
+    background: linear-gradient(
+        135deg,
+        #f8f7ff,
+        #ffffff
+    );
+
+}
+
+
+.section-small-title {
+
+    color: #696cff;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+}
+
+
+.section-main-title {
+
+    color: #566a7f;
+
+    font-size: 22px;
+
+    margin-top: 7px;
+
+    margin-bottom: 8px;
+
+}
+
+
+.website-links {
+
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+
+    gap: 10px;
+
+}
+
+
+.website-link {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 90px;
+
+    border-radius: 10px;
+
+    background: #ffffff;
+
+    color: #566a7f;
+
+    text-decoration: none;
+
+    box-shadow: 0 3px 12px rgba(67, 89, 113, 0.06);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+
+}
+
+
+.website-link i {
+
+    font-size: 24px;
+
+    color: #696cff;
+
+    margin-bottom: 7px;
+
+}
+
+
+.website-link span {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+}
+
+
+.website-link:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 18px rgba(67, 89, 113, 0.12);
+
+    color: #696cff;
+
+}
+
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1199px) {
+
+    .website-links {
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+}
+
+
+@media (max-width: 991px) {
+
+    .welcome-image {
+
+        max-width: 180px;
+
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .welcome-card .card-body {
+
+        padding: 24px;
+
+    }
+
+
+    .overview-item {
+
+        align-items: flex-start;
+
+    }
+
+
+    .overview-right {
+
+        flex-direction: column;
+
+        gap: 3px;
+
+        align-items: flex-end;
+
+    }
+
+
+    .website-links {
+
+        grid-template-columns: repeat(3, 1fr);
+
+        margin-top: 20px;
+
+    }
+
+}
+
+
+@media (max-width: 575px) {
+
+    .website-links {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+    .website-link {
+
+        min-height: 85px;
+
+    }
+
+}
+
+ 
+
+
+
+
+    
